@@ -37,11 +37,10 @@ RUN poetry config virtualenvs.create true \
 # Copy project files
 COPY src/ ./src/
 
+COPY data/ ./data/
+
 # Create README.md if it doesn't exist
 RUN touch README.md
-
-# Create data directory for output
-RUN mkdir -p /app/data
 
 # Make sure the virtual environment is activated
 ENV PATH="/app/.venv/bin:$PATH"
