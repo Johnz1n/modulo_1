@@ -307,8 +307,8 @@ GET /api/v1/stats/categories        # Análise por categoria
 ### 1. Clonando o Repositório
 
 ```bash
-git clone <repository-url>
-cd module-1
+git@github.com:Johnz1n/modulo_1.git
+cd module_1
 ```
 
 ### 2. Variáveis de Ambiente
