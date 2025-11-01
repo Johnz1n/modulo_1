@@ -73,7 +73,7 @@ graph LR
     B --> C[⚙️ Data Processing]
     C --> D[💾 File Storage]
     D --> E[🔌 Repository Layer]
-    E --> F[� FastAPI]
+    E --> F[🌐 FastAPI]
     F --> G[👤 API Consumers]
     
     subgraph "Data Collection"
