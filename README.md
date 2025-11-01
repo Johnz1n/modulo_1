@@ -23,8 +23,7 @@ graph TB
     G[Web Scraper] --> H[books.toscrape.com]
     G --> F
     
-    A --> B
-    J --> G
+    A --> G
     
     subgraph "Controllers"
         C1[BookController]
