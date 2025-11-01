@@ -23,7 +23,7 @@ graph TB
     G[Web Scraper Service] --> H[books.toscrape.com]
     G --> F
     
-    J[Command] -> G
+    J[Command] --> G
     B --> G
     
     subgraph "Controllers"
