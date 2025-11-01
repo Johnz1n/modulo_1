@@ -23,8 +23,7 @@ graph TB
     G[Web Scraper] --> H[books.toscrape.com]
     G --> F
     
-    I[Auth Middleware] --> B
-    J[Docker Container] --> B
+    A --> B
     J --> G
     
     subgraph "Controllers"
