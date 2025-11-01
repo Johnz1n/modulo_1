@@ -392,7 +392,7 @@ curl "https://pos-tech.borca.dev/api/v1/stats/overview"
 ```
 
 ### 📺 Vídeo Explicativo
-- **Demonstração Completa**: 
+- **Demonstração**: [https://youtu.be/MXlP2JuetVk](https://youtu.be/MXlP2JuetVk)
 
 ## 🗂️ Estrutura de Dados
 
