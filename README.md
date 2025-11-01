@@ -188,7 +188,7 @@ class DatabaseBookRepository(BookRepositoryInterface):
         return self.db.query("SELECT * FROM books")
 ```
 
-#### � **Evolução da Arquitetura**
+#### **Evolução da Arquitetura**
 
 ```mermaid
 graph TB
@@ -220,7 +220,7 @@ graph TB
     end
 ```
 
-#### � **Cenários de Uso para Cientistas de Dados**
+#### **Cenários de Uso para Cientistas de Dados**
 
 **1. Acesso Direto aos Dados**
 ```python
@@ -243,7 +243,6 @@ df = pd.read_csv("data/books.csv")
 ```bash
 GET /api/v1/stats/overview          # Estatísticas gerais
 GET /api/v1/stats/categories        # Análise por categoria
-GET /api/v1/books?format=csv        # Export para análise
 ```
 
 #### 🤖 **Potencial de Integração ML**
@@ -375,8 +374,23 @@ curl "https://pos-tech.borca.dev/api/v1/stats/overview"
 ## 🌐 Links Importantes
 
 ### 🔗 API em Produção
-- **URL Base**: [https://pos-tech.borca.dev.com](https://pos-tech.borca.dev.com)
-- **Swagger Docs**: [https://pos-tech.borca.dev.com/docs](https://pos-tech.borca.dev.com/docs)
+- **URL Base**: [https://pos-tech.borca.dev](https://pos-tech.borca.dev)
+- **Swagger Docs**: [https://pos-tech.borca.dev.com/docs](https://pos-tech.borca.dev/docs)
+
+#### Usuários de Produção
+```json
+{
+  "username": "admin",
+  "password": "admin"  
+}
+```
+
+```json
+{
+  "username": "user",
+  "password": "user"  
+}
+```
 
 ### 📺 Vídeo Explicativo
 - **Demonstração Completa**: 
@@ -409,8 +423,8 @@ curl "https://pos-tech.borca.dev/api/v1/stats/overview"
 ### Estrutura do Projeto
 ```
 src/module_1/
-├── api/                 # FastAPI application
-├── controllers/         # HTTP request handlers
+├── api/                # FastAPI application
+├── controllers/        # HTTP request handlers
 ├── services/           # Business logic
 ├── repository/         # Data access layer
 ├── models/             # Data models
