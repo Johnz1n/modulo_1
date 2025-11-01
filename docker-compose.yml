@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  books-scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: books-scraper
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    environment:
+      - PYTHONPATH=/app/src
+      - PYTHONUNBUFFERED=1
+    networks:
+      - scraper-network
+    command: python -m module_1.script.books_scraping
+    
+  books-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: books-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    environment:
+      - PYTHONPATH=/app/src
+      - PYTHONUNBUFFERED=1
+    networks:
+      - scraper-network
+    command: uvicorn module_1.api.main:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      - books-scraper
+    
+networks:
+  scraper-network:
+    driver: bridge

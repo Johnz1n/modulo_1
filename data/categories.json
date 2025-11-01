@@ -1,0 +1,302 @@
+[
+  {
+    "id": "c1e3761f-bbdb-4215-81a8-1e91b763158f",
+    "name": "Travel",
+    "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+    "slug": "travel_2"
+  },
+  {
+    "id": "d0de4f5f-8d65-4042-b6bc-0ce8aae415e9",
+    "name": "Mystery",
+    "url": "https://books.toscrape.com/catalogue/category/books/mystery_3/index.html",
+    "slug": "mystery_3"
+  },
+  {
+    "id": "6be26e56-660d-46b0-852b-665db78ccf6a",
+    "name": "Historical Fiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html",
+    "slug": "historical-fiction_4"
+  },
+  {
+    "id": "8b96aa1d-b081-4158-8ad0-42e2189868ed",
+    "name": "Sequential Art",
+    "url": "https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html",
+    "slug": "sequential-art_5"
+  },
+  {
+    "id": "91e2ec91-24c7-4864-9e42-49d11dc32fcc",
+    "name": "Classics",
+    "url": "https://books.toscrape.com/catalogue/category/books/classics_6/index.html",
+    "slug": "classics_6"
+  },
+  {
+    "id": "e30ac2e1-12ba-4bda-a967-279f557b1833",
+    "name": "Philosophy",
+    "url": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html",
+    "slug": "philosophy_7"
+  },
+  {
+    "id": "b26faf4c-44af-446f-93a5-d391c53c19a5",
+    "name": "Romance",
+    "url": "https://books.toscrape.com/catalogue/category/books/romance_8/index.html",
+    "slug": "romance_8"
+  },
+  {
+    "id": "91084221-9154-4d56-acea-6d7b3b1adfdc",
+    "name": "Womens Fiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html",
+    "slug": "womens-fiction_9"
+  },
+  {
+    "id": "8d805375-9462-4bfb-95ab-4d676d2e078e",
+    "name": "Fiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/fiction_10/index.html",
+    "slug": "fiction_10"
+  },
+  {
+    "id": "01777b75-1621-4c88-9bc5-79fa39b8fab0",
+    "name": "Childrens",
+    "url": "https://books.toscrape.com/catalogue/category/books/childrens_11/index.html",
+    "slug": "childrens_11"
+  },
+  {
+    "id": "9a606dc9-a97f-4a6b-872e-0d557ab53a21",
+    "name": "Religion",
+    "url": "https://books.toscrape.com/catalogue/category/books/religion_12/index.html",
+    "slug": "religion_12"
+  },
+  {
+    "id": "01f17acf-997c-4a14-b8e1-acdc52ea8024",
+    "name": "Nonfiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html",
+    "slug": "nonfiction_13"
+  },
+  {
+    "id": "78c0b16f-7bd6-426f-81e5-ac96a38c0705",
+    "name": "Music",
+    "url": "https://books.toscrape.com/catalogue/category/books/music_14/index.html",
+    "slug": "music_14"
+  },
+  {
+    "id": "d6ec39cb-9deb-433c-bd2c-e736b10eb499",
+    "name": "Default",
+    "url": "https://books.toscrape.com/catalogue/category/books/default_15/index.html",
+    "slug": "default_15"
+  },
+  {
+    "id": "98032dbe-6f3b-49f3-8e72-d84a82759526",
+    "name": "Science Fiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html",
+    "slug": "science-fiction_16"
+  },
+  {
+    "id": "107ac2b8-2107-4946-81b3-25be1317a189",
+    "name": "Sports and Games",
+    "url": "https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html",
+    "slug": "sports-and-games_17"
+  },
+  {
+    "id": "b9b5f829-62db-4e95-9627-f0b05a4b438f",
+    "name": "Add a comment",
+    "url": "https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html",
+    "slug": "add-a-comment_18"
+  },
+  {
+    "id": "d7bf11ec-db43-4661-b867-7c6e66a73970",
+    "name": "Fantasy",
+    "url": "https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html",
+    "slug": "fantasy_19"
+  },
+  {
+    "id": "c5748094-01ea-4b53-9974-98ed27a4ee89",
+    "name": "New Adult",
+    "url": "https://books.toscrape.com/catalogue/category/books/new-adult_20/index.html",
+    "slug": "new-adult_20"
+  },
+  {
+    "id": "5e4ba3db-7fee-43e4-ac5b-c60256c593d5",
+    "name": "Young Adult",
+    "url": "https://books.toscrape.com/catalogue/category/books/young-adult_21/index.html",
+    "slug": "young-adult_21"
+  },
+  {
+    "id": "8022d2a8-88ff-4290-b8a8-d8c23aa55414",
+    "name": "Science",
+    "url": "https://books.toscrape.com/catalogue/category/books/science_22/index.html",
+    "slug": "science_22"
+  },
+  {
+    "id": "bea780e2-8f22-4081-b4e0-d647f11606c9",
+    "name": "Poetry",
+    "url": "https://books.toscrape.com/catalogue/category/books/poetry_23/index.html",
+    "slug": "poetry_23"
+  },
+  {
+    "id": "64545d23-fd4d-4ae1-968d-d3463b65a05e",
+    "name": "Paranormal",
+    "url": "https://books.toscrape.com/catalogue/category/books/paranormal_24/index.html",
+    "slug": "paranormal_24"
+  },
+  {
+    "id": "2f55ac07-1d7d-4d0a-94f5-c74b4cd9dd6d",
+    "name": "Art",
+    "url": "https://books.toscrape.com/catalogue/category/books/art_25/index.html",
+    "slug": "art_25"
+  },
+  {
+    "id": "d3e9d4b2-6d8f-4891-b498-e582ef1e2ae4",
+    "name": "Psychology",
+    "url": "https://books.toscrape.com/catalogue/category/books/psychology_26/index.html",
+    "slug": "psychology_26"
+  },
+  {
+    "id": "3c0ff816-abe7-45e3-9589-98c3ad638009",
+    "name": "Autobiography",
+    "url": "https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html",
+    "slug": "autobiography_27"
+  },
+  {
+    "id": "2c82ab30-dc71-4e47-be8b-8c003216a616",
+    "name": "Parenting",
+    "url": "https://books.toscrape.com/catalogue/category/books/parenting_28/index.html",
+    "slug": "parenting_28"
+  },
+  {
+    "id": "7c621c3e-a452-49d3-aeaf-8b458cbfa76c",
+    "name": "Adult Fiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html",
+    "slug": "adult-fiction_29"
+  },
+  {
+    "id": "6f081ad8-4418-4e22-be65-a2f726de1712",
+    "name": "Humor",
+    "url": "https://books.toscrape.com/catalogue/category/books/humor_30/index.html",
+    "slug": "humor_30"
+  },
+  {
+    "id": "63d87672-8d1f-4f04-b6bc-de3da290b76e",
+    "name": "Horror",
+    "url": "https://books.toscrape.com/catalogue/category/books/horror_31/index.html",
+    "slug": "horror_31"
+  },
+  {
+    "id": "41592088-e3e4-4d30-bb3d-f254b615624d",
+    "name": "History",
+    "url": "https://books.toscrape.com/catalogue/category/books/history_32/index.html",
+    "slug": "history_32"
+  },
+  {
+    "id": "12498ba4-3cc8-47f9-951e-c77b3782cf28",
+    "name": "Food and Drink",
+    "url": "https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html",
+    "slug": "food-and-drink_33"
+  },
+  {
+    "id": "7c840be5-4fee-418e-bb38-8caff1ee2236",
+    "name": "Christian Fiction",
+    "url": "https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html",
+    "slug": "christian-fiction_34"
+  },
+  {
+    "id": "19afd72a-db53-494c-b72a-d9aed7aa46e0",
+    "name": "Business",
+    "url": "https://books.toscrape.com/catalogue/category/books/business_35/index.html",
+    "slug": "business_35"
+  },
+  {
+    "id": "174a381a-d1f4-468c-bd0f-ad27406d5d37",
+    "name": "Biography",
+    "url": "https://books.toscrape.com/catalogue/category/books/biography_36/index.html",
+    "slug": "biography_36"
+  },
+  {
+    "id": "4d76e186-0e1b-456b-961c-e56f04e448e1",
+    "name": "Thriller",
+    "url": "https://books.toscrape.com/catalogue/category/books/thriller_37/index.html",
+    "slug": "thriller_37"
+  },
+  {
+    "id": "36fa3243-546e-48ff-825d-eb6bbf87bf6d",
+    "name": "Contemporary",
+    "url": "https://books.toscrape.com/catalogue/category/books/contemporary_38/index.html",
+    "slug": "contemporary_38"
+  },
+  {
+    "id": "7d17d8d9-022d-4075-9ce2-49d05b31b406",
+    "name": "Spirituality",
+    "url": "https://books.toscrape.com/catalogue/category/books/spirituality_39/index.html",
+    "slug": "spirituality_39"
+  },
+  {
+    "id": "19a45975-1b8a-4011-b8c4-24958cd31281",
+    "name": "Academic",
+    "url": "https://books.toscrape.com/catalogue/category/books/academic_40/index.html",
+    "slug": "academic_40"
+  },
+  {
+    "id": "6fe8c83c-3658-451f-bf6f-4895a4e163d3",
+    "name": "Self Help",
+    "url": "https://books.toscrape.com/catalogue/category/books/self-help_41/index.html",
+    "slug": "self-help_41"
+  },
+  {
+    "id": "5b4be425-a51f-4646-a1a5-bfb1ca69a9d0",
+    "name": "Historical",
+    "url": "https://books.toscrape.com/catalogue/category/books/historical_42/index.html",
+    "slug": "historical_42"
+  },
+  {
+    "id": "c1dfdb8c-9848-45d2-85cd-d33d1035da9b",
+    "name": "Christian",
+    "url": "https://books.toscrape.com/catalogue/category/books/christian_43/index.html",
+    "slug": "christian_43"
+  },
+  {
+    "id": "676b7a3c-900a-4822-a4e2-2c1e1480e288",
+    "name": "Suspense",
+    "url": "https://books.toscrape.com/catalogue/category/books/suspense_44/index.html",
+    "slug": "suspense_44"
+  },
+  {
+    "id": "16d860aa-5fcf-499d-b143-ee901ad40ef3",
+    "name": "Short Stories",
+    "url": "https://books.toscrape.com/catalogue/category/books/short-stories_45/index.html",
+    "slug": "short-stories_45"
+  },
+  {
+    "id": "6e2751de-4c97-43c7-8f46-d2a6bbf134e4",
+    "name": "Novels",
+    "url": "https://books.toscrape.com/catalogue/category/books/novels_46/index.html",
+    "slug": "novels_46"
+  },
+  {
+    "id": "175983d1-f84c-4cec-857a-86adfa2420c2",
+    "name": "Health",
+    "url": "https://books.toscrape.com/catalogue/category/books/health_47/index.html",
+    "slug": "health_47"
+  },
+  {
+    "id": "38464ed5-2c23-4c58-aad1-44867e34fa4e",
+    "name": "Politics",
+    "url": "https://books.toscrape.com/catalogue/category/books/politics_48/index.html",
+    "slug": "politics_48"
+  },
+  {
+    "id": "13ef3b15-fd87-460c-8cfc-2d0b3e6ac0f5",
+    "name": "Cultural",
+    "url": "https://books.toscrape.com/catalogue/category/books/cultural_49/index.html",
+    "slug": "cultural_49"
+  },
+  {
+    "id": "b7f5f4da-71e6-4328-891b-5d0764ef07d6",
+    "name": "Erotica",
+    "url": "https://books.toscrape.com/catalogue/category/books/erotica_50/index.html",
+    "slug": "erotica_50"
+  },
+  {
+    "id": "3797d455-4869-4aa9-ae35-028bd5f20c2b",
+    "name": "Crime",
+    "url": "https://books.toscrape.com/catalogue/category/books/crime_51/index.html",
+    "slug": "crime_51"
+  }
+]
