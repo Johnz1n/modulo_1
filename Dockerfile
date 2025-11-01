@@ -37,6 +37,7 @@ RUN poetry config virtualenvs.create true \
 # Copy project files
 COPY src/ ./src/
 
+# Copy data files
 COPY data/ ./data/
 
 # Create README.md if it doesn't exist
