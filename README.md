@@ -20,10 +20,11 @@ graph TB
     D --> E[Repository Layer]
     E --> F[Data Storage - JSON/CSV]
     
-    G[Web Scraper] --> H[books.toscrape.com]
+    G[Web Scraper Service] --> H[books.toscrape.com]
     G --> F
     
-    A --> G
+    J[Command] -> G
+    B --> G
     
     subgraph "Controllers"
         C1[BookController]
