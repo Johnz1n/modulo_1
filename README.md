@@ -312,7 +312,15 @@ git clone <repository-url>
 cd module-1
 ```
 
-### 2. Configuração com Docker (Recomendado)
+### 2. Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```bash
+cp .env.example .env
+```
+
+### 3. Configuração com Docker (Recomendado)
 
 ```bash
 # Construir as imagens
@@ -326,7 +334,7 @@ make scrape  # Apenas scraping
 make api     # Apenas API
 ```
 
-### 3. Configuração para Desenvolvimento Local
+### 4. Configuração para Desenvolvimento Local
 
 ```bash
 # Instalar dependências
@@ -339,19 +347,11 @@ make local-scrape
 make local-api
 ```
 
-### 4. Variáveis de Ambiente
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```bash
-cp .env.example .env
-```
-
 
 ## 📖 Documentação da API
 
 ### Swagger UI (Interativo)
-- **Produção**: [https://pos-tech.borca.dev/docs](https://pos-tech.borca.dev.com/docs)
+- **Produção**: [https://pos-tech.borca.dev/docs](https://pos-tech.borca.dev/docs)
 
 ### ReDoc (Alternativo)
 - **Produção**: [https://pos-tech.borca.dev/redoc](https://pos-tech.borca.dev/redoc)
@@ -375,7 +375,7 @@ curl "https://pos-tech.borca.dev/api/v1/stats/overview"
 
 ### 🔗 API em Produção
 - **URL Base**: [https://pos-tech.borca.dev](https://pos-tech.borca.dev)
-- **Swagger Docs**: [https://pos-tech.borca.dev.com/docs](https://pos-tech.borca.dev/docs)
+- **Swagger Docs**: [https://pos-tech.borca.dev/docs](https://pos-tech.borca.dev/docs)
 
 #### Usuários de Produção
 ```json
